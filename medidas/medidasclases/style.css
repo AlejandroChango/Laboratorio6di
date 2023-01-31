@@ -1,0 +1,80 @@
+/* main{
+    background-color: red;
+    width: 100%;
+    height: 500px;
+
+}
+p{
+    font-size: 16px;
+} */
+
+
+/* no se usa con frecuencia de esta manera ya que suma 
+los atributos de cada uno del padre y del hijo en este caso el font-size del padre ("text-container") 
+se suma con el font-size del (.text-container div) haciendo que en el div se haga mas grande*/
+/*
+.text-container{
+font-size: 1.5em;
+}
+.text-container div{
+    font-size: 1.5em;
+    }*/
+
+    /* p
+    {
+        font-size:lrem; /* sirve para el tamaño de pixelado dependiendo del root "HTML" en este caso es 16px
+        } */
+    
+    
+
+    /* para saber que tamaño podemos hacer hay que hacer una regla del 3 para controlar el tamaño del pixel de la letra*/
+       
+    /* ejercicio 2*/ 
+  /*  *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+
+    }
+    html
+        {
+            font-size: 62.5%; /*medida estandar
+        }
+
+        
+
+        p
+        {
+            font-size: 3rem; /* de acuerdo al font-size de html con medida
+             estandar podemos controlar el tamaño en pixeles adecuadamente
+            }
+
+        main div p {
+            font-size: 6rem;/* de acuerdo al font-size de html con medida
+            estandar podemos controlar el tamaño en pixeles adecuadamente
+        }  */
+
+
+        /*ejercicio 3*/ 
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+    
+        }
+       
+            main{
+                width: 100vw;
+                height: 100vh;
+                background-color: purple;
+            }
+            section{
+                width: 80%;
+                min-width: 320px; /* minimo de bordes a minizar*/ 
+                max-width: 300px; /* maximo de borde a extenter*/
+                height: 500px;
+                margin: 0 auto;
+                background-color: red;
+            }
+
+    
